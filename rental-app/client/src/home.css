@@ -1,0 +1,126 @@
+.home-container {
+  background: #817f7f;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* SEARCH PANEL */
+.search-panel {
+  padding: 70px 40px;
+  color: white;
+
+  background-image: url("../public/image/lambo.jpg"); /* ✅ correct path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  min-height: 75vh;        /* 🔥 THIS IS THE KEY */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.search-panel h1 {
+  margin-bottom: 25px;
+}
+
+.search-bar {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.search-bar input,
+.search-bar select {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  min-width: 200px;
+}
+
+.search-bar button {
+  padding: 12px 30px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background: #1e40af;
+}
+
+/* HIGHLIGHTS */
+.highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  padding: 50px;
+}
+
+.highlight-box {
+  background: white;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s;
+}
+
+.highlight-box:hover {
+  transform: translateY(-6px);
+}
+
+/* POPULAR CARS */
+.popular-cars {
+  padding: 40px 50px;
+}
+
+.car-strip {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.car-card {
+  min-width: 160px;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  font-weight: 600;
+  text-align: center;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.08);
+}
+
+/* STEPS */
+.steps {
+  padding: 60px 50px;
+  background: #eef2ff;
+}
+
+.step-line {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.step {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+/* TRUST */
+.trust {
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  background: #111827;
+  color: white;
+}
+
+.trust h3 {
+  font-size: 32px;
+}

@@ -1,0 +1,65 @@
+.table-container {
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.styled-table th {
+  background-color: #222;
+  color: white;
+}
+
+.car-img {
+  width: 70px;
+  border-radius: 6px;
+}
+
+.delete-icon {
+  color: red;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.delete-icon:hover {
+  transform: scale(1.2);
+}
+.category-badge {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+  text-transform: capitalize;
+}
+
+.category-badge.hatchback {
+  background: #4caf50;
+}
+
+.category-badge.sedan {
+  background: #2196f3;
+}
+
+.category-badge.suv {
+  background: #ff9800;
+}
+
+.category-badge.luxury {
+  background: #9c27b0;
+}

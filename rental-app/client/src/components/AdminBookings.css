@@ -1,0 +1,99 @@
+/* Wrapper */
+.admin-bookings {
+  padding: 30px;
+  background-color: #f4f6f9;
+  min-height: 100vh;
+}
+
+/* Heading */
+.admin-bookings h2 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #1f2937;
+}
+
+/* Table container */
+.booking-table-container {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  overflow-x: auto;
+  padding: 20px;
+}
+
+/* Table */
+.booking-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Header */
+.booking-table thead {
+  background: linear-gradient(90deg, #111827, #1f2937);
+}
+
+.booking-table thead th {
+  padding: 14px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+/* Body */
+.booking-table tbody td {
+  padding: 14px;
+  font-size: 15px;
+  color: #374151;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* Row hover */
+.booking-table tbody tr:hover {
+  background-color: #f9fafb;
+}
+
+/* Status badges */
+.status {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  width: fit-content;
+}
+
+/* Action buttons (future use) */
+.action-btn {
+  border: none;
+  padding: 6px 12px;
+  margin-right: 6px;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.action-confirm {
+  background-color: #22c55e;
+  color: white;
+}
+
+.action-reject {
+  background-color: #ef4444;
+  color: white;
+}
+
+.action-btn:hover {
+  opacity: 0.85;
+}
+.delete-icon {
+  color: red;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.delete-icon:hover {
+  transform: scale(1.2);
+}
